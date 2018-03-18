@@ -1,12 +1,15 @@
-# eMuseum
+## eMuseum
 an App for the museums of Mumbai, made for Hackathon organized by ZKM
 by team Short Circuits
 
-# Very important as our app works only online an internet connection is required 
-# As we are using free hosting, server will remain shut everyday for 1 hour
+## Note:
+## Very important as our app works only online an internet connection is required 
+## As we are using free hosting, server will remain shut everyday for 1 hour
 
 # Android App
--- explain working of the app
+##The android app is two part:
+**eMuseum
+
 
 # Server
 Our server, database is hosted on 000webhost.com, under the domain [dhairyashah.000webhostapp.com](http://dhairyashah.000webhostapp.com/banana.php?id=1)
