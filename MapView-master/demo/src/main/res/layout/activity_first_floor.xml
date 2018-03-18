@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onlylemi.mapview.FirstFloor">
+
+    <include layout="@layout/map_view"/>
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="@string/Previous_Floor"
+        android:layout_marginLeft="200dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:text="Previous Floor" android:layout_marginStart="200dp" />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginStart="114dp"
+        android:text="@string/Next_Floor"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:text="Next Floor" />
+
+</RelativeLayout>
+

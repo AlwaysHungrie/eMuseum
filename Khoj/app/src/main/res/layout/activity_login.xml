@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game.LoginActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/login_bg"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginTop="340dp"
+        tools:shadowColor="@android:color/background_light"
+        android:layout_centerHorizontal="true"
+        android:hint="    Enter Name"
+        android:background="@drawable/editit"
+        android:text="    "
+        style="@style/TextAppearance.AppCompat.Inverse"
+        android:alpha="0.5"
+        />
+    <Button
+        android:text="PLAY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/editit"
+        style="@style/TextAppearance.AppCompat.Inverse"/>
+
+
+
+</RelativeLayout>

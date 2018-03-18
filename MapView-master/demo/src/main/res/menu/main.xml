@@ -1,0 +1,10 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    //refers to the main in the action bar
+    <item
+        android:id="@+id/map"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="always" />
+
+</menu>

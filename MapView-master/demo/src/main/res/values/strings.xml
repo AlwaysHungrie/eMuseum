@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">eMuseum</string>
+    <string name="button">Button</string>
+    <string name="view_first_floor">btn</string>
+    <string name="View_1st_Floor">View 1st Floor</string>
+    <string name="View_First_Floor">View_First_Floor</string>
+    <string name="Previous_Floor">Previous Floor</string>
+    <string name="Next_Floor">Next Floor</string>
+    <string name="view_next_floor">View Next Floor</string>
+
+    <array name="maplayer_name">
+        <item>MapLayerTest</item>
+        <item>BitmapLayerTest</item>
+        <item>LocationLayerTest</item>
+        <item>MarkLayerTest</item>
+        <item>RouteLayerTest</item>
+    </array>
+</resources>

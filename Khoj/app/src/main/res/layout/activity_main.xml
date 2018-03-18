@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:weightSum="10">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/go_to_game"
+        android:background="@android:color/transparent"
+        android:textColor="#ffff"
+        android:textSize="56sp"
+        android:fontFamily="@font/caviardreams"
+        android:textStyle="bold"/>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/go_to_wiki"
+        android:background="@android:color/transparent"
+        android:textColor="#ffff"
+        android:textSize="32sp"
+        android:fontFamily="@font/caviardreams"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

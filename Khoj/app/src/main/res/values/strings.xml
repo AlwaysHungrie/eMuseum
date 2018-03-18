@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Khoj</string>
+    <string name="url_prompt">URL to load:</string>
+    <string name="start_button">Start download</string>
+    <string name="progress_title">Please wait</string>
+    <string name="progress_detail">Downloading assets...</string>
+</resources>

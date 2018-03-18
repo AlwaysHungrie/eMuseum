@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onlylemi.mapview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Feed.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/emuseum"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MapLayerTestActivity"
+            android:label="MapLayerTest"></activity>
+        <activity
+            android:name=".Feed.MainActivity"
+            android:label="MarkLayerTest"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+        <activity android:name=".MarkLayerTestActivity" />
+        <activity android:name=".FirstFloor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Feed.BottomNav"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

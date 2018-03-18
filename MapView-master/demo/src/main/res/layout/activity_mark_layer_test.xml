@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onlylemi.mapview.MarkLayerTestActivity">
+
+    <include layout="@layout/map_view"/>
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:text="@string/view_next_floor"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:text="View Next Floor" android:layout_marginStart="200dp" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhairyashah.khoj.Common.DetailActivity">
+
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:diagonal_position="bottom"
+        app:diagonal_direction="left"
+        app:diagonal_angle="5"
+        >
+        <com.flaviofaria.kenburnsview.KenBurnsView
+            android:id="@+id/museum_image"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#A0333639"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:id="@+id/museum_title"
+                android:layout_gravity="top|left"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+    
+    <android.support.v7.widget.CardView
+        android:layout_margin="16dp"
+        android:layout_below="@id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/museum_summary"
+            android:layout_margin="16dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
