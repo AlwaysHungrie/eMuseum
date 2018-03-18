@@ -2,8 +2,8 @@
 an App for the museums of Mumbai, made for Hackathon organized by ZKM
 by team Short Circuits
 
-#Very important as our app works only online an internet connection is required 
-#As we are using free hosting, server will remain shut everyday for 1 hour
+# Very important as our app works only online an internet connection is required 
+# As we are using free hosting, server will remain shut everyday for 1 hour
 
 # Android App
 -- explain working of the app
@@ -11,7 +11,11 @@ by team Short Circuits
 # Server
 Our server, database is hosted on 000webhost.com, under the domain [dhairyashah.000webhostapp.com](http://dhairyashah.000webhostapp.com/banana.php?id=1)
 ## API call
-banana.php?id=[1-100] will fetch information from data set provided of 100 artifacts provided in CSMVS dataset
+banana.php?id=[1-100] will fetch information from data set provided of 100 artifacts provided in CSMVS dataset.
+
+For example:
+
+
 [dhairyashah.000webhostapp.com/banana.php?id=1](http://dhairyashah.000webhostapp.com/banana.php?id=1) gives this response
 [{"ID":"1.0",
 "Title":"Devotee",
