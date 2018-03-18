@@ -1,17 +1,53 @@
-## eMuseum
+# eMuseum and Khoj
 an App for the museums of Mumbai, made for Hackathon organized by ZKM
 by team Short Circuits
 
-## Note:
-## Very important as our app works only online an internet connection is required 
-## As we are using free hosting, server will remain shut everyday for 1 hour
+## Note:<br>Very important as our app works only online an internet connection is required<br>As we are using free hosting, server will remain shut everyday for 1 hour
 
-# Android App
-##The android app is two part:
-**eMuseum
+# Android App Working 
+## The android app is two part:
+# **eMuseum**
+eMuseum is a feed reader which helps connect people and museums called eMuseum. This allows people to stay updated with activities of CSMVS and BDL from the comfort of their homes.
 
+<p align="center">
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/1.png" width="250"/>
+ <br>eMuseum home 
+</p>
+eMuseum also offers a map service where users can view museum maps, click on exhibits inside the map and view image and info regarding that exhibit.
+<br>
+<p align="center">
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/2.jpg" width="250"/>
+ <br>map with points marking different exhibits which the user can interact with<br>
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/2.1.jpg" width="250"/>
+ <br>card view showing picture of exhibit
+</p>
 
-# Server
+# **Khoj**
+Khoj is a game as well as a quick reference encyclopedia called Museumpedia that employs QR codes to quickly provide more information about an exhibit. The game - Around the Museum - is like a treasure hunt where the objective of the visitor is to go around the museum (literally) collecting clues. 
+## Around the Museum
+<p align="center">
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/3.png" width="250"/>
+ <br>Choosing between game and museumpedia<br><br>
+ <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/4.jpg" width="250"/>
+ <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/5.png" width="250"/>
+ <br>Game screen, enter name and start playing <br><br>
+ <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/6.1.png" width="250"/>
+ <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/6.2.png" width="250"/>
+ <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/6.3.png" width="250"/>
+ <br>Look up a clue, scan the appropriate exhibit, and gather more info and more clues<br><br> 
+</p>
+
+## Museumpedia
+<p align="center">
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/7.png" width="250"/>
+  <br>Museumpedia start screen<br><br>
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/8.png" width="250"/>
+  <img src="https://github.com/AlwaysHungrie/eMuseum/blob/master/Screenshots/9.png" width="250"/>
+  <br>Search through the museum database to know more about the most interesting artifacts<br>
+ 
+</p>
+
+## Server
 Our server, database is hosted on 000webhost.com, under the domain [dhairyashah.000webhostapp.com](http://dhairyashah.000webhostapp.com/banana.php?id=1)
 ## API call
 banana.php?id=[1-100] will fetch information from data set provided of 100 artifacts provided in CSMVS dataset.
