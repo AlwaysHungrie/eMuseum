@@ -74,6 +74,9 @@ public class DetailActivity extends AppCompatActivity {
                                 String id = student.getString("ID");//Note: parameter of getString is case sensitive
                                 String title = student.getString("Title");
                                 String info = student.getString("Long_Description");
+                                
+                                if(info.equals("null"))info = student.getString("Short_Description");
+                                
                                 String filename = student.getString("Filename");
                                 ida = (int)Float.parseFloat(id);
                                 f = filename;
