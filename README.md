@@ -52,7 +52,7 @@ Our server, database is hosted on 000webhost.com, under the domain [dhairyashah.
 ## API call
 banana.php?id=[1-100] will fetch information from data set provided of 100 artifacts provided in CSMVS dataset.
 
-For example:
+For example:-
 
 
 [dhairyashah.000webhostapp.com/banana.php?id=1](http://dhairyashah.000webhostapp.com/banana.php?id=1) gives this response
