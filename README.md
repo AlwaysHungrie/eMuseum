@@ -1,5 +1,5 @@
 # eMuseum and Khoj
-an App for the museums of Mumbai, made for Hackathon organized by ZKM
+An app for the museums of Mumbai, made for a hackathon organized by ZKM
 by team Short Circuits
 
 ## Note:<br>Very important as our app works only online an internet connection is required<br>As we are using free hosting, server will remain shut everyday for 1 hour
